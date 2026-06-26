@@ -1,5 +1,7 @@
 let person = {
-    name: "Nilay"
+    name: "Nilay",
+	age: 22,
+	city: "pune"
 };
 
 // for(let key in person){
