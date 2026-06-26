@@ -1,8 +1,13 @@
-//your JS code here. If required.
-let person ={
-	name : "Nilay"
+let person = {
+    name: "Nilay"
+};
+
+// for(let key in person){
+// 	console.log(key)
+// }
+
+function getKeys(obj) {
+    return Object.keys(obj);
 }
 
- for(let key in person){
-     console.log(key);
- }
+console.log(getKeys(person));
